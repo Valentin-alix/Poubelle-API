@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 poetry run poe migrate
 

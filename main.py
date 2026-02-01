@@ -17,7 +17,7 @@ from starlette.responses import PlainTextResponse
 sys.path.append(os.path.join(Path(__file__).parent, "D3Database"))
 
 from src.const import ENV_PATH
-from src.routers import item_price_history, data_center, character
+from src.routers import character, data_center, item_price_history
 
 
 @asynccontextmanager

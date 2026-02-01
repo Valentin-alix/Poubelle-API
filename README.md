@@ -1,15 +1,7 @@
 `alembic --config src/alembic/alembic.ini revision --autogenerate`
 `alembic --config src/alembic/alembic.ini upgrade head`
 
-### Generate init sql & populate
-
-```
-bash scripts/dump.sh
-
-scp init.sql ubuntu@145.239.198.180:/home/EzreD2API/scripts/init.sql
-
-bash scripts/populate.sh
-```
+`bash scripts/prod/start.server.sh`
 
 ### Generate dump sql for specific table & populate
 
